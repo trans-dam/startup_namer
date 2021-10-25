@@ -1,16 +1,13 @@
-# startup_namer
+#  Générateur de noms d'entreprise
 
-A new Flutter project.
+> Tutoriel proposé par Google (https://codelabs.developers.google.com/codelabs/first-flutter-app-pt1#0)
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+Une application simple qui génère des noms d'entreprise. L'utilisateur pourra sélectionner et désélectionner les propositions, afin d'enregistrer celles qu'ils préfèrent. Le code génère 10 noms à la fois. À mesure que l'utilisateur fait défiler la page, d'autres noms sont générés. Le défilement est infini.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Le fichier GIF animé suivant montre le fonctionnement de l'application à la fin de cette partie de l'atelier :
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+![README](./README.gif)

@@ -7,9 +7,23 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Startup Name Generator',
       theme: ThemeData(
-        primaryColor: Colors.white,
+          colorScheme: const ColorScheme(
+            primary: Colors.black38,
+            primaryVariant: Colors.black12,
+            secondary: Colors.amber,
+            secondaryVariant: Colors.amberAccent,
+            surface: Colors.white,
+            background: Colors.white,
+            error: Colors.red,
+            onPrimary:Colors.white,
+            onSecondary:Colors.white,
+            onSurface:Colors.black,
+            onBackground:Colors.black,
+            onError: Colors.white,
+            brightness: Brightness.light
+            // all fields should have a value
+          )
       ),
       home: RandomWords(),
     );
@@ -33,7 +47,7 @@ class _RandomWordsState extends State<RandomWords> {
     return Scaffold(
       // Add from here...
       appBar: AppBar(
-        title: Text('Startup Name Generator'),
+        title: Text('Générateur de noms'),
         actions: [
           IconButton(icon: Icon(Icons.list), onPressed: _pushSaved),
         ],
